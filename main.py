@@ -909,4 +909,5 @@ def update_heatmap_monthly_bystate(checked_states):
 
 
 if __name__ == '__main__':
+    server = app.server
     app.run_server(debug=True)
