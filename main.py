@@ -118,7 +118,7 @@ data_global.columns = ['iso_code', 'location', 'population', 'total_cases']
 data_global['index'] = ((data_global['total_cases'] / data_global['population']) * 100)
 
 # Create the Dash app
-app = dash.Dash(__name__)
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
 # Set up the app layout
