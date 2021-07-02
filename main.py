@@ -118,7 +118,8 @@ data_global.columns = ['iso_code', 'location', 'population', 'total_cases']
 data_global['index'] = ((data_global['total_cases'] / data_global['population']) * 100)
 
 # Create the Dash app
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__)
+server = app.server
 
 # Set up the app layout
 app.layout = html.Div([
@@ -909,5 +910,4 @@ def update_heatmap_monthly_bystate(checked_states):
 
 
 if __name__ == '__main__':
-    server = app.server
     app.run_server(debug=True)
