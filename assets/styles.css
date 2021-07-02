@@ -1,0 +1,152 @@
+body {
+  background-color: #293B5F;
+  margin: 5%;
+}
+
+.card_container {
+  border-radius: 5px;
+  background-color: #47597E;
+  margin: 25px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px #47597E;
+}
+
+.create_container {
+  border-radius: 5px;
+  background-color: #47597E;
+  margin: 18px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px #47597E;
+}
+
+.create_container1 {
+  border-radius: 5px;
+  background-color: #47597E;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px #47597E;
+}
+
+.dcc_compon {
+  margin: 0;
+  padding: 5px;
+  width: calc(100%-40px);
+}
+
+.fix_label {
+font-size: 20px;
+  margin: 0;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  width: calc(100%-35px);
+}
+
+.flex-display {
+  display: flex;
+}
+
+.container-display {
+  display: flex;
+}
+
+#header {
+  align-items: center;
+}
+
+#refresh-data {
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+  text-transform: none;
+  font-size: 20px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+#title {
+  text-align: center;
+}
+
+#title1 {
+  text-align: center;
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.Select-control, .Select-menu-outer, .Select-multi-value-wrapper, .select-up, .is-open .Select-control {
+  background-color: #47597E;
+  color: white;
+
+}
+
+.Select-control{
+  border: 0.5px solid #DBE6FD;
+}
+
+input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
+    height: 38px;
+    padding: 6px 10px;
+    background-color: #47597E;
+    border: 0.5px solid #DBE6FD;
+    color: white;
+    border-radius: 2px;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.checkbox_container{
+    border: 0.5px solid #DBE6FD;
+    border-radius: 2px;
+}
+
+label{
+    color: white;
+    display: inline-block;
+    padding: 2px;
+    margin: 2px;
+}
+
+.DateRangePickerInput_arrow_svg, .DateRangePickerInput_arrow_svg_1 {
+  Height: 10px !important;
+  Width: 10px !important;
+}
+
+.DateRangePickerInput_arrow_svg:hover, .DateRangePickerInput_arrow_svg_1:hover {
+  cursor: pointer;
+}
+
+.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+  color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px !important;
+  display: block !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #DBE6FD !important;
+  display: block !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #E5D549;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #E5D549 !important;
+}
