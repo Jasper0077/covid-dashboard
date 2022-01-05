@@ -1,6 +1,6 @@
 # covid-dashboard
 
-Dashboard to track Malaysia Covid-19 trends, built with Plotly Dash.
+A real-time dashboard built with Plotly Dash to track Malaysia Covid-19 trends.
 
 Web app: https://malaysia-covid19-dashboard.herokuapp.com/
 
